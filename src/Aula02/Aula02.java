@@ -6,7 +6,8 @@ package Aula02;
 		
     	c1.modelo = "Bic cristal";
 		c1.cor = "azul ";
-		c1.ponta = 0.5f;
+		//c1.ponta = 0.5f;
+		c1.carga = 90;
 		c1.tampar();
         c1.status();
 		c1.rabiscar();
@@ -16,7 +17,8 @@ package Aula02;
 		
 		c2.modelo = "ster";
 		c2.cor = "amarelo";
-		c2.ponta = 0.9f;
+		//c2.ponta = 0.9f;
+		c2.carga = 50;
 		c2.destampar();
 		c2.status();
 		c2.rabiscar();

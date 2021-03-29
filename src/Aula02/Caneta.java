@@ -3,11 +3,11 @@ package Aula02;
 public class Caneta {
     
 	//atributo 
-	String modelo;
-	String cor;
-	float ponta;
-	int carga; 
-	boolean tampada;
+	public String modelo;
+	public String cor;
+	private float ponta;
+	protected int carga; 
+	protected boolean tampada;
 	
    
 	//metodos 
@@ -20,17 +20,17 @@ public class Caneta {
 		System.out.println("A caneta esta tanpada ? " + this.tampada);
 	}
 	
-	void rabiscar() {
+	public void rabiscar() {
 		if (this.tampada == true) {
 			System.out.println("Erro! Nao posso rabiscar,Pois estou tampada");
 		} 
 		else {System.out.println("estou rabiscando");
 		}
 	}
-	void tampar() {
+	protected void tampar() {
 		this.tampada = true;
 	}
-	void destampar() {
+	protected void destampar() {
 		this.tampada = false;
 	}
 
