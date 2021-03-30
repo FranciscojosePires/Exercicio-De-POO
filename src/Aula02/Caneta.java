@@ -7,7 +7,7 @@ public class Caneta {
 	public String cor;
 	private float ponta;
 	protected int carga; 
-	protected boolean tampada;
+	private boolean tampada;
 	
    
 	//metodos 
