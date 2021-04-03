@@ -12,18 +12,11 @@ public class UltraCombatt {
 		l[4] = new lutador("UFOCollbol", "Brasil", 37 ,  1.70f,  119.3f, 5, 4, 3);
 		l[5] = new lutador("Nerdaart", "EUA", 30 ,  1.81f,  105.7f, 12, 2, 4);
 	
-		l[0].Status();
-		l[1].Status(); 
-		l[2].Status();
-		l[3].Status();
+		Luta uec01 = new Luta();
+		uec01.marcarLuta(l[5], l[4]);
+		uec01.lutar();
+		l[5].Status();
 		l[4].Status();
-		l[5].Status();
-		
-		
-		l[0].apresentar();
-		
-		l[5].ganharLuta();
-		l[5].Status();
 	}
 	
       
