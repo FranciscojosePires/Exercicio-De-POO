@@ -14,6 +14,8 @@ public class ProjetoLivro {
 		l[2]= new Livro (" Java aAvançado","Maria carla", 800, p[0]);
 		
 		System.out.println(l[0].detalhes());
+		System.out.println(l[1].detalhes());
+		
 
 	}
 

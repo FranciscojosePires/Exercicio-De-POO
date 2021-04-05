@@ -80,7 +80,8 @@ public class Livro implements Publicacao{
 	public void fechar() {this.aberto= false;}
 
 	@Override
-	public void folhear(int p ) {this.pagAtual=p;}
+	public void folhear(int p ) {if (p> this.totPaginas) {this.pagAtual=0;}
+	                             else {this.pagAtual=p;}}
 
 	@Override
 	public void avançaPag() {this.pagAtual ++;}
