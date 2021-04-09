@@ -1,19 +1,19 @@
 package Aula11;
 
 public class Aluno extends Pessoa  {
-	private int matricola;
+	private int matricula;
 	private String curso;
 	
 	public void pagarMensalidade() {
-		System.out.println("pagando mensalidade do aluno "+ this.getNome());
+		System.out.println("Pagando mensalidade do aluno "+ this.getNome());
 	}
 
-	public int getMatricola() {
-		return matricola;
+	public int getMatricula() {
+		return matricula;
 	}
 
-	public void setMatricola(int matricola) {
-		this.matricola = matricola;
+	public void setMatricula(int matricula) {
+		this.matricula = matricula;
 	}
 
 	public String getCurso() {
@@ -24,10 +24,5 @@ public class Aluno extends Pessoa  {
 		this.curso = curso;
 	}
 
-	@Override
-	public String toString() { System.out.println(this.getNome());
-		return "Aluno [matricola = " + matricola + ", curso = " + curso + "]";
-			
-	}
 
 }

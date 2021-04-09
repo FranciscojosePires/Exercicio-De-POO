@@ -10,10 +10,9 @@ public class Bolsista extends Aluno {
 	
 	@Override
 	public void pagarMensalidade(){
-		System.out.println(this.getNome() + " é bolsista! Pagamento facilitado");
+		System.out.println(this.getNome() + " é bolsista! Pagamento facilitado em "+ this.bolsa+"% de desconto ");
 		
 	}
-
 
 	public int getBolsa() {
 		return bolsa;
